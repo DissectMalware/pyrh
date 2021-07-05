@@ -142,7 +142,7 @@ def build_fundamentals(stock: str) -> URL:
         A constructed URL of the fundamentals for the input stock ticker.
 
     """
-    return FUNDAMENTALS_BASE / f"/{stock}/"
+    return FUNDAMENTALS_BASE / f"{stock}/"
 
 
 def build_tags(tag: str) -> URL:
@@ -205,6 +205,6 @@ def build_market_data(option_id: Optional[str] = None) -> URL:
         A constructed URL for market data for a particular `option_id`.
     """
     if option_id is None:
-        return MARKET_DATA_BASE / f"/{option_id}/"
+        return MARKET_DATA_BASE / f"{option_id}/"
     else:
         return MARKET_DATA_BASE
