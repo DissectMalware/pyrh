@@ -29,6 +29,8 @@ PORTFOLIOS = API_BASE / "portfolios/"
 POSITIONS = API_BASE / "positions/"
 TAGS_BASE = API_BASE / "midlands/tags/tag/"
 WATCHLISTS = API_BASE / "watchlists/"
+LISTS = (API_BASE / "midlands/lists/").with_query('owner_type=custom')
+LIST_ITEMS = API_BASE / "midlands/lists/items/"
 
 # Options
 OPTIONS_BASE = API_BASE / "options/"

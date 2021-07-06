@@ -8,13 +8,13 @@
 # -- Project information -----------------------------------------------------
 
 project = "pyrh"
-copyright = "2020, Unofficial Robinhood Python API"
+copyright = "2021, Unofficial Robinhood Python API"
 author = "Unofficial Robinhood Python API"
 master_doc = "index"
 exclude_patterns = ["stubs/*"]  # ignore stubs from checks
 
 # The full version, including alpha/beta/rc tags
-release = "2.0"
+release = "2.1"
 
 # -- General configuration ---------------------------------------------------
 
